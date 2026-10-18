@@ -1,0 +1,30 @@
+VERSIÓN EN LÍNEA: https://benielchidoguan-cell.github.io/transcriptor-juridico/
+(funciona en computadora y en celular; también puede descargar index.html y abrirlo localmente)
+
+TRANSCRIPTOR JURÍDICO — Audio y video a texto en bloques de 30 segundos
+=======================================================================
+
+CÓMO ABRIRLO
+  Opción A (más simple): doble clic en index.html (Chrome o Edge recomendados).
+  Opción B: abra la versión en línea indicada arriba (recomendado; el modelo queda en caché).
+
+Requiere conexión a internet la primera vez (descarga librerías y el modelo Whisper
+desde CDN / Hugging Face). El audio NO se sube a ningún servidor en modo local.
+
+FORMATOS: MP3, MP4, AAC, AVI, WAV, M4A, OGG, MOV, WEBM, MKV, FLAC, WMA, 3GP...
+  (AVI/WMV y otros se convierten dentro del navegador con ffmpeg.wasm, ~31 MB la 1a vez)
+
+FUNCIONES
+  - Divide el audio en bloques de 30 s con su rango de tiempo y botón de reproducción.
+  - Transcripción automática Whisper (Tiny/Base/Small) en el navegador, o OpenAI con clave API.
+  - Cronómetro, barra de posición con marcas de bloque, resaltado y desplazamiento automático
+    del bloque que se está escuchando, repetir bloque, velocidad 0.5x–2x.
+  - Edición en tiempo real con guardado automático; hablante y notas por bloque; marcar revisado;
+    búsqueda y reemplazo; conteo de palabras.
+  - Exportar: PDF (formato legal con datos del expediente, paginado y constancia/firma),
+    Word (DOCX), TXT, SRT y proyecto (.json) para respaldo.
+
+ATAJOS: Esc = reproducir/pausa · Alt+←/→ = ±5 s · Alt+B/N = bloque anterior/siguiente
+        Alt+L = repetir bloque · Alt+↑/↓ = velocidad · Alt+T = insertar marca de tiempo
+        Alt+R = marcar revisado · Ctrl+F = buscar
+
